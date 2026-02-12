@@ -5,7 +5,7 @@ using { sap.capire.incidents as my } from '../db/schema';
  */
 service ProcessorService { 
     entity Incidents as projection on my.Incidents;
-
+     entity Test_data as projection on my.Test_data;
     @readonly
     entity Customers as projection on my.Customers;
 }

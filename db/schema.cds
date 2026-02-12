@@ -39,6 +39,10 @@ postCode      : String;
 streetAddress : String;
 }
 
+entity Test_data : cuid, managed {
+test       : String;
+test_value : String;
+};
 entity Status : CodeList {
 key code: String enum {
     new = 'N';
